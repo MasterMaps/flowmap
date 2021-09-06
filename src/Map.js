@@ -15,8 +15,6 @@ const MapGL = () => {
       style: "https://basemaps.cartocdn.com/gl/positron-gl-style/style.json",
     });
 
-    console.log(FlowLinesLayer);
-
     map.on("load", () => {
       map.addLayer(
         new MapboxLayer({
